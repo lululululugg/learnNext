@@ -12,7 +12,11 @@ const listData=[
     },{
       name:"Scale",
       link:"/scale"
-    }]
+    },{
+      name:"Blog",
+      link:"/blog"
+    }
+]
 // const accessData=['/','/pertormance','/refliabilitv','/scale'];
 const Header = () => {
   const pathname = usePathname();

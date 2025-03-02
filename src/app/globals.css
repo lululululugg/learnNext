@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   background-color: black;
-}
+} */
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
