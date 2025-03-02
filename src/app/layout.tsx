@@ -30,20 +30,7 @@ export default function RootLayout({
         className={inter.className}
       >
         <AntdRegistry>
-          <div className="container mx-auto" >
-            <>            
-              <div className="flex justify-center text-blue-500 p-6 gap-6" >
-                <Link href="/" >Home</Link>
-                <Link href="/visitors">Visitors</Link>
-              </div> 
-              <div className="flex justify-center gap-6">
-                {team}
-                {analytics}
-              </div>
-            </>
-
-            {children}
-          </div>
+          {children}
         </AntdRegistry>
 
       </body>
