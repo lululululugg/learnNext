@@ -1,6 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
-// import Img1 from '/public/IMG_0377.jpg'
 import React from "react";
 interface HeroProp {
     contentText:string
